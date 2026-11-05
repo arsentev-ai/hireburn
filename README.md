@@ -13,6 +13,8 @@
 
 **hireburn — open-source AI HR hunter: record your AI avatar once, reach candidates at a human pace, let the avatar run first interviews, and see where your funnel leaks.**
 
+Part of the free Digital employees catalog: [arsentev.ai/employees](https://arsentev.ai/employees).
+
 Three small tools that work together or alone:
 
 - **`avatar`** — the record-once kit. A recording script and checklist, an interview plan of
@@ -48,6 +50,12 @@ your machine: hireburn makes no network calls.
   human; that is why the default limits are where they are.
 
 ## Quickstart in 60 seconds
+
+**Easiest: ask your coding agent.** Paste this to Claude Code (or any coding agent) and answer its questions about the role; it follows [AGENTS.md](AGENTS.md):
+
+> Install hireburn from github.com/arsentev-ai/hireburn and set it up for my vacancy: ask me about the role, write my avatar recording script, build the candidate page with AI disclosure, and plan LinkedIn outreach at a human pace.
+
+Or by hand:
 
 ```bash
 git clone https://github.com/arsentev-ai/hireburn && cd hireburn
