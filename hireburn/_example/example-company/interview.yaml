@@ -1,0 +1,32 @@
+# SYNTHETIC example company. Replace every value with your own.
+company: Example Company (synthetic)
+role: Customer support associate
+minutes: 20
+reply_days: 3
+interviewer:
+  name: Alex Example
+  title: Head of Support
+alternative_contact: hiring@example.com
+retention_days: 90
+clips_base_url: clips/
+questions:
+  - id: q1
+    text: A customer says their order shows as delivered, but nothing arrived. How would you explain what happens next?
+    listen_for: a clear, step-by-step explanation in plain words
+    max_followups: 1
+  - id: q2
+    text: Walk me through how you would handle a customer who is upset and wants a refund we cannot give.
+    listen_for: listening first, a clear next step, staying within policy
+    max_followups: 1
+  - id: q3
+    text: Tell me about a mistake you made at work and what you changed afterwards.
+    listen_for: owning the mistake and a concrete change
+    max_followups: 1
+  - id: q4
+    text: How do you keep track of many open requests at the same time?
+    listen_for: a system for priorities and follow-up
+    max_followups: 0
+  - id: q5
+    text: What would you like to get better at in your next role?
+    listen_for: a specific skill and how the candidate would practise it
+    max_followups: 0

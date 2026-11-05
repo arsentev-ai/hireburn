@@ -1,0 +1,14 @@
+# SYNTHETIC example: how the example company answers the checklist.
+answers:
+  tell_ai_used: {status: yes, note: opening clip and first screen of the page}
+  explain_how: {status: yes, note: criteria listed on the page}
+  consent: {status: yes, note: unticked checkbox gates the Start button}
+  notice_10_days: {status: partly, note: job post mentions an AI interview; no 10-day gap}
+  alternative: {status: yes, note: link to a person on the page}
+  retention: {status: yes, note: "90 days, delete on request"}
+  limit_sharing: {status: yes}
+  bias_audit: {status: no, note: not done yet}
+  no_discriminatory_effect: {status: partly, note: "no ZIP codes used; impact ratios not measured"}
+  human_reads_before_reject: {status: yes}
+  no_emotion_inference: {status: yes, note: rubric scores content only}
+  demographic_reporting: {status: n/a, note: AI alone never selects for the next round}

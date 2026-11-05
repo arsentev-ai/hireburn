@@ -13,5 +13,5 @@ Three parts, usable on their own:
   lag, AI label versus who is still working, disclosure checklist.
 """
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 CONCEPT_DOI = "10.5281/zenodo.23927437"

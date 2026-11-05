@@ -6,7 +6,7 @@
   "codeRepository": "https://github.com/arsentev-ai/hireburn",
   "url": "https://arsentev.ai/research/ai-hiring",
   "license": "https://spdx.org/licenses/MIT",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "dateCreated": "2026-11-05",
   "programmingLanguage": ["Python"],
   "operatingSystem": ["macOS", "Linux", "Windows"],

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "hireburn"
-version = "0.1.0"
+version = "0.1.1"
 description = "Open-source AI HR hunter: record your AI avatar once, reach candidates at a human pace, let the avatar run first interviews, and see where your funnel leaks."
 readme = "README.md"
 requires-python = ">=3.10"
@@ -40,6 +40,9 @@ Author = "https://orcid.org/0000-0002-9120-7298"
 
 [tool.setuptools.packages.find]
 include = ["hireburn*"]
+
+[tool.setuptools.package-data]
+hireburn = ["_example/example-company/*", "_example/example-company/transcripts/*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

@@ -4,6 +4,15 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions follow
 [Semantic Versioning](https://semver.org/).
 
+## [0.1.1] — 2026-11-05
+
+### Fixed
+- `hireburn demo` after `pip install hireburn`: the synthetic example company now ships inside
+  the package, so the demo runs without a clone of the repository.
+
+### Added
+- GitHub Actions workflow that publishes to PyPI through Trusted Publishing (no API tokens).
+
 ## [0.1.0] — 2026-11-05
 
 ### Added

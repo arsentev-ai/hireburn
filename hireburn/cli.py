@@ -233,6 +233,9 @@ def _example_dir(arg: str | None) -> Path:
         p = base / "examples" / "example-company"
         if p.is_dir():
             return p
+    packaged = Path(__file__).resolve().parent / "_example" / "example-company"
+    if packaged.is_dir():
+        return packaged
     raise SystemExit("example data not found; pass --data path/to/examples/example-company")
 
 

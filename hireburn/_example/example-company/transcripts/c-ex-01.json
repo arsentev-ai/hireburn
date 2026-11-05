@@ -1,0 +1,27 @@
+{
+ "candidate": "example-01 (synthetic)",
+ "turns": [
+  {
+   "question_id": "q1",
+   "answer": "First I check the tracking and the address with them, then I explain the next step: we open a carrier claim, and I update them within a day.",
+   "follow_up": "What if the carrier says it was delivered?",
+   "follow_up_answer": "Then I explain our policy and send a replacement or refund."
+  },
+  {
+   "question_id": "q2",
+   "answer": "First I listen and say I understand. Then I explain the policy and offer an alternative, like store credit, and agree the next step."
+  },
+  {
+   "question_id": "q3",
+   "answer": "I once closed a ticket too early. I learned to confirm with the customer, and now I use a short checklist; it changed how I close tickets."
+  },
+  {
+   "question_id": "q4",
+   "answer": "A list sorted by priority, tags for each type, and notes so I can follow up."
+  },
+  {
+   "question_id": "q5",
+   "answer": "I want to get better at writing; I ask for feedback and practice on real replies to improve."
+  }
+ ]
+}
