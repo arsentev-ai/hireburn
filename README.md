@@ -5,6 +5,7 @@
 <p align="center">
   <a href="https://doi.org/10.5281/zenodo.23927437"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.23927437.svg" alt="Method report DOI 10.5281/zenodo.23927437"></a>
   <a href="https://doi.org/10.5281/zenodo.23979629"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.23979629.svg" alt="Software DOI 10.5281/zenodo.23979629"></a>
+  <a href="https://github.com/arsentev-ai/hireburn/actions/workflows/tests.yml"><img src="https://github.com/arsentev-ai/hireburn/actions/workflows/tests.yml/badge.svg" alt="Tests"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT"></a>
   <img src="https://img.shields.io/badge/python-3.10%2B-blue.svg" alt="Python 3.10+">
   <img src="https://img.shields.io/badge/dependencies-none-brightgreen.svg" alt="No dependencies">
@@ -249,6 +250,18 @@ YAML is read by a small built-in parser (maps, lists, quoted strings, block text
   of ten is not mistaken for a finding.
 - The candidate page is a starting point: put it behind your own upload endpoint, check it with
   `hireburn disclosure --page`, and have counsel read it before real use.
+
+## Roadmap
+
+Next steps, open for contributions — pick one and say so in the issue:
+
+- [Example adapter for a real avatar provider through `AvatarRenderer`](https://github.com/arsentev-ai/hireburn/issues/1) — help wanted
+- [Candidate page in Spanish and German (`--lang es|de`)](https://github.com/arsentev-ai/hireburn/issues/2) — good first issue
+- [Funnel export as CSV for Google Sheets (`--csv`)](https://github.com/arsentev-ai/hireburn/issues/3) — good first issue
+- [Light theme for the candidate page (`prefers-color-scheme`)](https://github.com/arsentev-ai/hireburn/issues/4) — good first issue
+
+Questions and ideas: [Discussions](https://github.com/arsentev-ai/hireburn/discussions). How to contribute:
+[CONTRIBUTING.md](CONTRIBUTING.md) · [Code of Conduct](CODE_OF_CONDUCT.md) · [Security](SECURITY.md).
 
 ## Cite
 

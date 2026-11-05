@@ -1,0 +1,42 @@
+name: Bug report
+description: Something in hireburn gives a wrong number, crashes or behaves unexpectedly.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Please **never paste real candidate data** — names, transcripts,
+        profile links or messages are personal data. A small made-up input that reproduces the
+        problem is the most useful thing you can attach.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: The command you ran and what you saw.
+      placeholder: hireburn funnel examples/... --json
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Made-up input that reproduces it
+      description: CSV / YAML / JSON with invented values only.
+      render: text
+  - type: input
+    id: version
+    attributes:
+      label: hireburn version
+      placeholder: "output of: python3 -c 'import hireburn; print(hireburn.__version__)'"
+  - type: input
+    id: env
+    attributes:
+      label: Python version and OS
+      placeholder: Python 3.12, macOS 15
+    validations:
+      required: true

@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Questions and ideas
+    url: https://github.com/arsentev-ai/hireburn/discussions
+    about: Ask how to use hireburn or share how you run it — please use Discussions.
+  - name: Security vulnerability
+    url: https://github.com/arsentev-ai/hireburn/security/advisories/new
+    about: Report privately, not in a public issue. See SECURITY.md.

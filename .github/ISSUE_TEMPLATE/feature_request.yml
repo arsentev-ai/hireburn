@@ -1,0 +1,35 @@
+name: Feature request
+description: Suggest an improvement or a new adapter.
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before proposing, please check "What will not be merged" in CONTRIBUTING.md:
+        hireburn never sends messages, logs in or clicks on any site, and the AI disclosure
+        on the candidate page cannot be weakened.
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What are you trying to do, and what gets in the way today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Commands, flags or output you would like to see.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you considered
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: Project rules
+      options:
+        - label: The change keeps hireburn offline and dependency-free (adapters live in a separate folder).
+          required: true
