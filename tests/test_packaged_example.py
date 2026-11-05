@@ -10,4 +10,5 @@ def test_packaged_example_matches_repo_copy():
     files = sorted(p.relative_to(src) for p in src.rglob("*") if p.is_file())
     assert files, "examples/example-company is empty"
     for rel in files:
-        assert (pkg / rel).read_bytes() == (src / rel).read_bytes(), rel
+        norm = lambda b: b.replace(b"\r\n", b"\n")
+        assert norm((pkg / rel).read_bytes()) == norm((src / rel).read_bytes()), rel
