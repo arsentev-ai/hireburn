@@ -1,0 +1,27 @@
+{
+ "candidate": "example-02 (synthetic)",
+ "turns": [
+  {
+   "question_id": "q1",
+   "answer": "I would check what happened and explain it to them.",
+   "follow_up": "What would you tell them first?",
+   "follow_up_answer": "That we are looking into it."
+  },
+  {
+   "question_id": "q2",
+   "answer": "I would listen, explain the policy and look for an alternative."
+  },
+  {
+   "question_id": "q3",
+   "answer": "I made a mistake with an order once and learned from it."
+  },
+  {
+   "question_id": "q4",
+   "answer": "I keep a list."
+  },
+  {
+   "question_id": "q5",
+   "answer": "I'd like to learn more about the product."
+  }
+ ]
+}

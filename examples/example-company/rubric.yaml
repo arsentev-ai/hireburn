@@ -1,0 +1,33 @@
+# SYNTHETIC example rubric. Content of answers only — never voice, accent or face.
+thresholds: {hire: 4.0, maybe: 3.0}
+criteria:
+  - id: clarity
+    question_id: q1
+    weight: 2
+    what: Explains a situation step by step in plain words
+    anchors: {1: confusing or blames the customer, 3: correct but vague, 5: "clear steps, sets expectations, plain words"}
+    evidence_words: [first, check, then, explain, update, step]
+  - id: handling
+    question_id: q2
+    weight: 2
+    what: "Handles an upset customer — listens, offers a clear next step, stays within policy"
+    anchors: {1: argues or promises the impossible, 3: polite but vague, 5: "listens, explains, offers a concrete alternative"}
+    evidence_words: [listen, understand, explain, alternative, policy, next]
+  - id: learning
+    question_id: q3
+    weight: 1
+    what: Owns a mistake and names a concrete change
+    anchors: {1: no mistake named, 3: mistake without a change, 5: mistake and a concrete change}
+    evidence_words: [mistake, changed, learned, now, checklist]
+  - id: organisation
+    question_id: q4
+    weight: 1
+    what: Keeps track of priorities and follow-ups
+    anchors: {1: no system, 3: some routine, 5: "clear system, priorities, follow-up"}
+    evidence_words: [list, priorit, tag, follow, notes]
+  - id: growth
+    question_id: q5
+    weight: 1
+    what: Names a skill to improve and how
+    anchors: {1: nothing specific, 3: a skill, 5: a skill and how to practise it}
+    evidence_words: [learn, better, practice, feedback, improve]

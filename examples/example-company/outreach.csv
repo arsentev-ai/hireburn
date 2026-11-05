@@ -1,0 +1,8 @@
+# SYNTHETIC candidate cards — invented people and example.com-style placeholder links.
+id,first_name,profile_url,role,company,manager_title,hook,do_not_contact
+p01,Sam,https://www.linkedin.com/in/example-sam,customer support associate,Example Company,head of support,"Your post on closing tickets in one reply was the clearest I've read.",
+p02,Jordan,https://www.linkedin.com/in/example-jordan,customer support associate,Example Company,head of support,"Three years leading a support queue is exactly the experience we need.",
+p03,Riley,https://www.linkedin.com/in/example-riley,customer support associate,Example Company,head of support,"Moving from retail to support is a path several of our best people took.",
+p04,Casey,https://www.linkedin.com/in/example-casey,customer support associate,Example Company,head of support,,
+p05,Morgan,https://www.linkedin.com/in/example-morgan,customer support associate,Example Company,head of support,"Your volunteer work answering a help line stood out.",yes
+p06,Avery,https://www.linkedin.com/in/example-avery,customer support associate,Example Company,head of support,"Your note about writing macros that still sound human is spot on.",

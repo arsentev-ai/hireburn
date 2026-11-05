@@ -1,0 +1,33 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "name": "hireburn",
+  "description": "Open-source AI HR hunter: record your AI avatar once, reach candidates at a human pace, let the avatar run first interviews, and see where your funnel leaks. Record-once avatar interview kit with mandatory AI disclosure, human-pace LinkedIn outreach queue where a person sends, and hiring-funnel loss accounting with a disclosure checklist against NYC Local Law 144, the Illinois AI Video Interview Act, Illinois HB 3773 and the EU AI Act. No dependencies, no network calls.",
+  "codeRepository": "https://github.com/arsentev-ai/hireburn",
+  "url": "https://arsentev.ai/research/ai-hiring",
+  "license": "https://spdx.org/licenses/MIT",
+  "version": "0.1.0",
+  "dateCreated": "2026-11-05",
+  "programmingLanguage": ["Python"],
+  "operatingSystem": ["macOS", "Linux", "Windows"],
+  "runtimePlatform": "Python 3.10+",
+  "developmentStatus": "active",
+  "keywords": ["hiring", "recruiting", "AI interview", "AI avatar", "hiring funnel", "LinkedIn outreach", "AI disclosure", "NYC Local Law 144", "EU AI Act", "payrollburn"],
+  "author": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9120-7298",
+      "givenName": "Evgenii",
+      "familyName": "Arsentev",
+      "url": "https://arsentev.ai"
+    }
+  ],
+  "referencePublication": [
+    {
+      "@type": "ScholarlyArticle",
+      "name": "AI Hiring in a Live Company: A 36-Day Case Study of an AI Hiring Agent and an AI Interview (payrollburn, part 2 of \"AI managers in a live company\")",
+      "identifier": "https://doi.org/10.5281/zenodo.23927437"
+    }
+  ],
+  "isPartOf": "https://arsentev.ai/research"
+}

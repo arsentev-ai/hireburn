@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+  <title id="title">hireburn — open-source AI HR hunter</title>
+  <desc id="desc">Record your AI avatar once, reach candidates at a human pace, let the avatar run first interviews, and see where your funnel leaks. A synthetic example funnel narrows from 3,000 applications to 18 people working on day 30; the last bar is orange.</desc>
+
+  <rect width="1200" height="440" rx="24" fill="#0B0C0E"/>
+
+  <g id="title-block" transform="translate(64 0)">
+    <text x="0" y="86" fill="#8A8F98" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" letter-spacing="2">AI HR HUNTER · OPEN SOURCE</text>
+    <text x="0" y="168" fill="#F2EFE8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="80" font-weight="700" letter-spacing="-1.5">hire<tspan fill="#FF6A1A">burn</tspan></text>
+    <text x="0" y="220" fill="#F2EFE8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="26">Record your AI avatar once.</text>
+    <text x="0" y="254" fill="#F2EFE8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="26">Reach people at a human pace.</text>
+    <text x="0" y="288" fill="#F2EFE8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="26">See where your funnel leaks.</text>
+    <text x="0" y="340" fill="#8A8F98" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17">avatar · outreach · funnel</text>
+    <text x="0" y="368" fill="#8A8F98" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17">python3 · no dependencies · AI disclosure on</text>
+  </g>
+
+  <g id="funnel">
+    <rect x="690.0" y="92" width="400.0" height="30" rx="6" fill="#2A2D33"/>
+    <text x="678.0" y="112" text-anchor="end" fill="#8A8F98" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">applications</text>
+    <text x="1102.0" y="112" fill="#F2EFE8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" font-weight="700">3,000</text>
+    <rect x="763.5" y="134" width="253.0" height="30" rx="6" fill="#2A2D33"/>
+    <text x="751.5" y="154" text-anchor="end" fill="#8A8F98" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">screened</text>
+    <text x="1028.5" y="154" fill="#F2EFE8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" font-weight="700">1,200</text>
+    <rect x="826.8" y="176" width="126.5" height="30" rx="6" fill="#2A2D33"/>
+    <text x="814.8" y="196" text-anchor="end" fill="#8A8F98" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">candidates</text>
+    <text x="965.2" y="196" fill="#F2EFE8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" font-weight="700">300</text>
+    <rect x="850.0" y="218" width="80.0" height="30" rx="6" fill="#2A2D33"/>
+    <text x="838.0" y="238" text-anchor="end" fill="#8A8F98" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">booked</text>
+    <text x="942.0" y="238" fill="#F2EFE8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" font-weight="700">120</text>
+    <rect x="857.3" y="260" width="65.3" height="30" rx="6" fill="#2A2D33"/>
+    <text x="845.3" y="280" text-anchor="end" fill="#8A8F98" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">held</text>
+    <text x="934.7" y="280" fill="#F2EFE8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" font-weight="700">90</text>
+    <rect x="872.1" y="302" width="35.8" height="30" rx="6" fill="#2A2D33"/>
+    <text x="860.1" y="322" text-anchor="end" fill="#8A8F98" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">started</text>
+    <text x="919.9" y="322" fill="#F2EFE8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" font-weight="700">24</text>
+    <rect x="874.5" y="344" width="31.0" height="30" rx="6" fill="#FF6A1A"/>
+    <text x="862.5" y="364" text-anchor="end" fill="#8A8F98" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">working day 30</text>
+    <text x="917.5" y="364" fill="#FF6A1A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" font-weight="700">18</text>
+    <text x="890" y="402" text-anchor="middle" fill="#8A8F98" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="1">SYNTHETIC EXAMPLE · BAR WIDTH ∝ √COUNT</text>
+  </g>
+</svg>

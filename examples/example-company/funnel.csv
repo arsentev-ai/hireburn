@@ -1,0 +1,14 @@
+# SYNTHETIC example company — made-up round numbers, not data from any real company.
+stage,count,parent,role,note
+applications,3000,,,all applications received
+screened,1200,,,read and matched to the role
+candidates,300,,,invited into the pipeline
+booked,120,,,human interview booked
+held,90,,held,interview took place
+no_show,20,booked,no_show,
+cancelled,5,booked,cancelled,
+ai_invited,60,candidates,invited,sent the avatar-interview link
+ai_completed,40,ai_invited,completed,finished the avatar interview
+accounts,34,,,work account issued (trial or start)
+started,24,,,first real working action
+working_day_30,18,,,still working on day 30

@@ -1,0 +1,10 @@
+# SYNTHETIC reply log.
+candidate_id,sent,follow_ups_sent,last_follow_up,replied,outcome
+p01,2026-01-05,0,,2026-01-06,interested
+p02,2026-01-05,0,,,
+p03,2026-01-05,1,2026-01-09,,
+p06,2026-01-06,0,,2026-01-08,not_interested
+p07,2026-01-06,2,2026-01-16,,
+p08,2026-01-07,0,,2026-01-07,booked
+p09,2026-01-12,0,,,
+p10,2026-01-12,0,,2026-01-13,interested

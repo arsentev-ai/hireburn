@@ -1,0 +1,25 @@
+{
+ "candidate": "example-03 (synthetic)",
+ "turns": [
+  {
+   "question_id": "q1",
+   "answer": "They should contact the courier."
+  },
+  {
+   "question_id": "q2",
+   "answer": "I'd tell them those are the rules."
+  },
+  {
+   "question_id": "q3",
+   "answer": "Nothing comes to mind."
+  },
+  {
+   "question_id": "q4",
+   "answer": ""
+  },
+  {
+   "question_id": "q5",
+   "answer": "Not sure."
+  }
+ ]
+}

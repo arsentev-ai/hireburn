@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+title: "hireburn: an open-source AI HR hunter — record-once avatar interviews, human-pace outreach and hiring-funnel loss accounting"
+message: "If you use this software, please cite it using the metadata from this file, and cite the method report listed under preferred-citation."
+type: software
+authors:
+  - family-names: Arsentev
+    given-names: Evgenii
+    orcid: "https://orcid.org/0000-0002-9120-7298"
+    website: "https://arsentev.ai"
+version: "0.1.0"
+date-released: "2026-11-05"
+repository-code: "https://github.com/arsentev-ai/hireburn"
+url: "https://arsentev.ai/research/ai-hiring"
+abstract: >-
+  hireburn is a dependency-free Python toolkit for AI-assisted hiring in three parts.
+  avatar: a record-once kit for AI-avatar first interviews — recording script and checklist,
+  an interview plan of pre-recorded clips with at most one voice-AI follow-up per question,
+  a candidate page with mandatory AI disclosure and a consent gate, and a transcript rubric
+  whose HIRE / MAYBE / NO labels carry the caveat that a label is not a measurement.
+  outreach: personal LinkedIn drafts, a human-pace queue (random pauses, hourly and daily
+  caps, working hours, stop on the first warning) worked through by a person who presses
+  send, and a reply and follow-up tracker. funnel: losses per stage, show-up and completion
+  rates, days to first work, AI label against who is still working on day N, and a candidate
+  disclosure checklist measured against NYC Local Law 144, the Illinois AI Video Interview
+  Act, Illinois HB 3773 and the EU AI Act. The method comes from a published case report.
+keywords:
+  - hiring
+  - recruiting
+  - AI interview
+  - AI avatar
+  - hiring funnel
+  - LinkedIn outreach
+  - AI disclosure
+  - NYC Local Law 144
+  - EU AI Act
+  - payrollburn
+license: MIT
+preferred-citation:
+  type: report
+  title: "AI Hiring in a Live Company: A 36-Day Case Study of an AI Hiring Agent and an AI Interview (payrollburn, part 2 of \"AI managers in a live company\")"
+  authors:
+    - family-names: Arsentev
+      given-names: Evgenii
+      orcid: "https://orcid.org/0000-0002-9120-7298"
+  doi: "10.5281/zenodo.23927437"
+  year: 2026
+  publisher:
+    name: Zenodo
+references:
+  - type: software
+    title: "contextburn: a run-efficiency meter for language-model coding agents"
+    authors:
+      - family-names: Arsentev
+        given-names: Evgenii
+        orcid: "https://orcid.org/0000-0002-9120-7298"
+    doi: "10.5281/zenodo.22712985"
+    notes: "Sister tool by the same author."

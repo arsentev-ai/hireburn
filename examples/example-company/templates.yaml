@@ -1,0 +1,22 @@
+# SYNTHETIC example templates for an invented company.
+# Message templates. {hook} is one sentence a person writes after reading the profile.
+note_max_chars: 200
+message_max_chars: 1000
+required_fields: [first_name, hook]
+templates:
+  connect: "Hi {first_name}, {hook} We're hiring a {role} at {company} — open to a short chat?"
+  first: |
+    Hi {first_name},
+
+    {hook}
+
+    We're hiring a {role} at {company}. The first step is a 20-minute interview with an AI avatar
+    of our {manager_title} — you can take it whenever suits you, and if you'd rather talk to a person
+    first, just say so.
+
+    Would you like the link?
+  follow_up_1: |
+    Hi {first_name}, just bringing this back up in case it got buried. Happy to answer any questions
+    about the {role} role first.
+  follow_up_2: |
+    Hi {first_name}, last note from me on this — if the timing is wrong, no problem at all. All the best.
