@@ -83,12 +83,12 @@ Two screenshots from a real hiring run. They are not mock-ups. Company details, 
 photos and messages are covered with solid boxes before publishing.
 
 <p align="center">
-  <img src="docs/screenshots/avatar-interview.png" width="100%" alt="Interview page: the author's recorded avatar on a phone frame, the greeting text, 'Evgenii is speaking', the microphone bar and the 'I have answered, next' button; company details redacted">
+  <img src="https://raw.githubusercontent.com/arsentev-ai/hireburn/main/docs/screenshots/avatar-interview.png" width="100%" alt="Interview page: the author's recorded avatar on a phone frame, the greeting text, 'Evgenii is speaking', the microphone bar and the 'I have answered, next' button; company details redacted">
 </p>
 <p align="center"><em>A first interview run by a recorded AI avatar — the author's own avatar; company details redacted.</em></p>
 
 <p align="center">
-  <img src="docs/screenshots/linkedin-outreach.png" width="100%" alt="LinkedIn Messaging inbox with candidate replies and the first lines of an outreach message; names, photos, previews and company details redacted">
+  <img src="https://raw.githubusercontent.com/arsentev-ai/hireburn/main/docs/screenshots/linkedin-outreach.png" width="100%" alt="LinkedIn Messaging inbox with candidate replies and the first lines of an outreach message; names, photos, previews and company details redacted">
 </p>
 <p align="center"><em>Outreach replies in LinkedIn — candidates' names, photos and company details redacted; every message was sent by a person.</em></p>
 
