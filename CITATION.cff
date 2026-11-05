@@ -8,6 +8,14 @@ authors:
     orcid: "https://orcid.org/0000-0002-9120-7298"
     website: "https://arsentev.ai"
 version: "0.1.0"
+doi: "10.5281/zenodo.23979629"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23979629"
+    description: "Concept DOI for all versions of hireburn"
+  - type: doi
+    value: "10.5281/zenodo.23979630"
+    description: "hireburn v0.1.0"
 date-released: "2026-11-05"
 repository-code: "https://github.com/arsentev-ai/hireburn"
 url: "https://arsentev.ai/research/ai-hiring"

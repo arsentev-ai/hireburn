@@ -4,6 +4,7 @@
 
 <p align="center">
   <a href="https://doi.org/10.5281/zenodo.23927437"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.23927437.svg" alt="Method report DOI 10.5281/zenodo.23927437"></a>
+  <a href="https://doi.org/10.5281/zenodo.23979629"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.23979629.svg" alt="Software DOI 10.5281/zenodo.23979629"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT"></a>
   <img src="https://img.shields.io/badge/python-3.10%2B-blue.svg" alt="Python 3.10+">
   <img src="https://img.shields.io/badge/dependencies-none-brightgreen.svg" alt="No dependencies">
