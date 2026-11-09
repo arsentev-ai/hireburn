@@ -16,6 +16,8 @@
 
 Part of the free Digital employees catalog: [arsentev.ai/employees](https://arsentev.ai/employees).
 
+By **Evgenii Arsentev, MD, PhD** — creator of [Arsminal](https://arsminal.com); Founder & CEO, Dad4Kids and [arsentev.ai](https://arsentev.ai) · ORCID [0000-0002-9120-7298](https://orcid.org/0000-0002-9120-7298)
+
 Three small tools that work together or alone:
 
 - **`avatar`** — the record-once kit. A recording script and checklist, an interview plan of
@@ -280,8 +282,7 @@ research page: [arsentev.ai/research/ai-hiring](https://arsentev.ai/research/ai-
 
 ## Author
 
-Evgenii Arsentev, MD, PhD — author of [contextburn](https://github.com/arsentev-ai/contextburn) and
-the payrollburn case series; Founder & CEO, Dad4Kids ·
+Evgenii Arsentev, MD, PhD — creator of [Arsminal](https://arsminal.com); Founder & CEO, Dad4Kids and
 [arsentev.ai](https://arsentev.ai) · ORCID [0000-0002-9120-7298](https://orcid.org/0000-0002-9120-7298)
 
 ## License
