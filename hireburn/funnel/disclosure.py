@@ -8,6 +8,7 @@ Input (``disclosure.yaml``)::
 
     answers:
       tell_ai_used:        {status: yes, note: "first screen of the interview page"}
+      tell_interacting_with_ai: {status: yes, note: "avatar says it is an AI in the first clip"}
       explain_how:         {status: partly}
       bias_audit:          {status: no}
       ...
@@ -33,8 +34,13 @@ SOURCES = {
 
 # id, framework(s), requirement, page marker that can show it (or "")
 REQUIREMENTS: list[dict[str, str]] = [
-    {"id": "tell_ai_used", "rule": "NYC LL 144 · Illinois AIVIA · Illinois HB 3773 · EU AI Act Art. 50(1), 26(11)",
-     "requirement": "Tell the candidate, before the interview, that AI is used — including that the interviewer is an AI avatar",
+    {"id": "tell_ai_used", "rule": "NYC LL 144 · Illinois AIVIA · Illinois HB 3773 · EU AI Act Art. 26(11) (deployer)",
+     "requirement": "Tell the candidate, before the interview, that AI is used to make or assist the hiring decision. "
+                    "EU: deployers of Annex III high-risk systems that make or assist decisions about people must inform them",
+     "marker": "disclosure"},
+    {"id": "tell_interacting_with_ai", "rule": "EU AI Act Art. 50(1), 50(5) (provider)",
+     "requirement": "Make clear the candidate is talking to an AI avatar, not a person, at the latest at the first interaction. "
+                    "EU: a provider design duty for systems that interact directly with people, unless it is obvious",
      "marker": "disclosure"},
     {"id": "explain_how", "rule": "Illinois AIVIA · NYC LL 144",
      "requirement": "Explain how the AI works and which qualifications and characteristics it evaluates",
@@ -45,8 +51,9 @@ REQUIREMENTS: list[dict[str, str]] = [
     {"id": "notice_10_days", "rule": "NYC LL 144",
      "requirement": "Give notice at least 10 business days before use (job posting or mail counts)",
      "marker": ""},
-    {"id": "alternative", "rule": "NYC LL 144 · EU AI Act Art. 26(2), 14",
-     "requirement": "Offer a way to request an alternative process or accommodation, and real human review",
+    {"id": "alternative", "rule": "NYC LL 144 · safeguard for EU AI Act Art. 14, 26(2) (human oversight)",
+     "requirement": "Offer a way to request an alternative process or accommodation, and real human review. "
+                    "NYC LL 144 notice covers this; under the EU AI Act it is a safeguard that supports human oversight",
      "marker": "alternative"},
     {"id": "retention", "rule": "NYC LL 144 · Illinois AIVIA",
      "requirement": "State what is recorded, who sees it and how long it is kept; delete on request (Illinois: within 30 days)",
@@ -60,8 +67,9 @@ REQUIREMENTS: list[dict[str, str]] = [
     {"id": "no_discriminatory_effect", "rule": "Illinois HB 3773 · EU AI Act Annex III(4)",
      "requirement": "Check for discriminatory effect; do not use proxies such as ZIP codes",
      "marker": ""},
-    {"id": "human_reads_before_reject", "rule": "EU AI Act Art. 14, 26(2) (human oversight)",
-     "requirement": "A person reads the transcript before any rejection based on the AI label",
+    {"id": "human_reads_before_reject", "rule": "Safeguard for EU AI Act Art. 14, 26(2) (human oversight)",
+     "requirement": "A person with the competence and authority to overrule the AI label reads the transcript before any "
+                    "rejection based on it. A safeguard for this process, not a step the Act names",
      "marker": "human_review"},
     {"id": "no_emotion_inference", "rule": "EU AI Act Art. 5(1)(f)",
      "requirement": "Do not infer emotions from voice or face; score the content of answers only",

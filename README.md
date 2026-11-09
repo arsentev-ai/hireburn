@@ -221,7 +221,10 @@ The disclosure checklist is a yardstick, **not legal advice**. It lists requirem
 (notice, explanation, consent, limited sharing, deletion within 30 days), Illinois HB 3773
 (notice, no discriminatory effect, no ZIP-code proxies) and the
 [EU AI Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) (hiring is high-risk under Annex III;
-telling people they interact with AI; human oversight; no emotion inference at work). Whether a
+two separate notices: Art. 50(1) for any system people talk to directly, Art. 26(11) for
+deployers of Annex III systems that make or assist decisions about people; human oversight
+under Art. 14 and 26(2), which the alternative process and the transcript read are safeguards
+for, not steps the Act names; no emotion inference at work). Whether a
 rule applies to you depends on where the role and the candidate are — ask counsel.
 
 ## Inputs

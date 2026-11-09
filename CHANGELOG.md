@@ -4,6 +4,16 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions follow
 [Semantic Versioning](https://semver.org/).
 
+## [Unreleased]
+
+### Changed
+- Disclosure checklist: the EU notice is split in two. `tell_ai_used` now cites Art. 26(11)
+  (deployer of an Annex III system informs the people it decides about); the new
+  `tell_interacting_with_ai` cites Art. 50(1) and 50(5) (provider duty, at the latest at the
+  first interaction). `alternative` and `human_reads_before_reject` are framed as safeguards
+  supporting human oversight under Art. 14 and 26(2), not as steps the Act names.
+  Thanks to the awesome-eu-ai-act review.
+
 ## [0.1.1] — 2026-11-05
 
 ### Fixed

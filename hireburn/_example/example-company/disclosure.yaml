@@ -1,6 +1,7 @@
 # SYNTHETIC example: how the example company answers the checklist.
 answers:
   tell_ai_used: {status: yes, note: opening clip and first screen of the page}
+  tell_interacting_with_ai: {status: yes, note: avatar says it is an AI in the first clip}
   explain_how: {status: yes, note: criteria listed on the page}
   consent: {status: yes, note: unticked checkbox gates the Start button}
   notice_10_days: {status: partly, note: job post mentions an AI interview; no 10-day gap}
