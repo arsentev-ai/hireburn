@@ -280,10 +280,23 @@ GitHub's **"Cite this repository"** button gives the reference for the software;
 [DEV.to](https://dev.to/arsentev/ai-hiring-in-a-live-company-the-agent-filled-the-funnel-the-ai-interviews-labels-did-not-line-up-54ef) ·
 research page: [arsentev.ai/research/ai-hiring](https://arsentev.ai/research/ai-hiring).
 
-## Author
+## About the author
 
-Evgenii Arsentev, MD, PhD — creator of [Arsminal](https://arsminal.com); Founder & CEO, Dad4Kids and
-[arsentev.ai](https://arsentev.ai) · ORCID [0000-0002-9120-7298](https://orcid.org/0000-0002-9120-7298)
+**Evgenii Arsentev, MD, PhD** (Евгений Арсентьев) — creator of Arsminal; Founder & CEO of Dad4Kids and ArsentevAI; founder of ReelsZavod. Physician and medical scientist who builds AI-agent systems in production and publishes the measurements.
+
+ORCID 0000-0002-9120-7298 · Wikidata Q141398931
+
+**Projects and publications**
+
+- Arsminal: free terminal for AI agents, built as a messenger (DOI 10.5281/zenodo.24079643)
+- AI Content Engine Economics: 1,497 short videos in 101 days by AI agents vs. people (DOI 10.5281/zenodo.22802228)
+- Context economy of agent sessions, the U-curve of context clearing (DOI 10.5281/zenodo.22759217)
+- AI managers in a live company, case series (DOI 10.5281/zenodo.23926850, 10.5281/zenodo.23927437)
+- contextburn: open-source meter of agent-run cost
+- hireburn: open method for AI-assisted hiring cost (payrollburn series)
+- IETF Internet-Drafts: draft-arsentev-agent-run-metrics, draft-arsentev-llm-context-discovery
+- Participant, W3C Agent Conformance and Benchmarking Community Group
+- ReelsZavod: AI content factory for Russian-speaking businesses
 
 ## License
 
