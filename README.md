@@ -16,7 +16,7 @@
 
 Part of the free Digital employees catalog: [arsentev.ai/employees](https://arsentev.ai/employees).
 
-By **Evgenii Arsentev, MD, PhD** — creator of [Arsminal](https://arsminal.com); Founder & CEO, Dad4Kids and [arsentev.ai](https://arsentev.ai) · ORCID [0000-0002-9120-7298](https://orcid.org/0000-0002-9120-7298)
+By **Evgenii Arsentev, MD, PhD** — creator of [Arsminal](https://arsminal.com); founder of [ArsentevAI](https://arsentev.ai) and Dad4Kids · ORCID [0000-0002-9120-7298](https://orcid.org/0000-0002-9120-7298)
 
 Three small tools that work together or alone:
 
